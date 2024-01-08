@@ -1,0 +1,10 @@
+#main-sidebar {
+  min-width: 200px;
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-100%);
+  z-index: 9999;
+}
+
+#main-sidebar.show {
+  transform: translateX(0);
+}
