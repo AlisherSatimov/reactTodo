@@ -41,7 +41,7 @@ const TodoApp = () => {
         e.preventDefault();
         const title = e.target[0].value;
 
-        if (!title) return alert("Input is required!");
+        if (!title) return alert("Input is required!!");
 
         dispatch({
             type: "ADD_TODO",
